@@ -1,0 +1,320 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-11T06:42:24.804Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5906000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should be able to login with valid creddentials",
+        "description": "",
+        "id": "techfios-billing-login-page-functionality-validation;user-should-be-able-to-login-with-valid-creddentials",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 180000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters userName as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@techfios.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.User_enters_userName_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_password_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3076000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 314000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on BankCash",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_clicks_On_BankCash()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 528000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on NewAccount",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_clicks_On_NewAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should land on AddNewAccountpage",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_should_land_on_AddNewAccountPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters accountTitle as \"Techfios Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Techfios Login\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_accountTitle_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters description as \"abc456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc456\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_description_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters initialBalace as \"9283\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9283\"",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_initialBalace_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters AccountNumber as \"93844\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"93844\"",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_AccountNumber_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters ContactPerson as \"Techfios\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Techfios\"",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_ContactPerson_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters phoneNumber as \"9938\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9938\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_phoneNumber_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters internetbanking Url as \"https://techfios.com/billing/?ng\u003daccounts/add/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://techfios.com/billing/?ng\u003daccounts/add/\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_internetbanking_Url_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 895000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Submit NewAccount Form",
+            "match": {
+              "location": "steps.LoginStepDefinition.User_Submit_NewAccount_Form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [] but found [Manage Account]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat org.testng.Assert.assertEquals(Assert.java:639)\r\n\tat steps.LoginStepDefinition.user_should_land_on_manage_account_page(LoginStepDefinition.java:141)\r\n\tat ✽.User should land on manage account page(classpath:features/TechfiosLogin.feature:21)\r\n",
+              "duration": 48000000,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "User should land on manage account page",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_should_land_on_manage_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios billing login page functionality validation",
+    "description": "",
+    "id": "techfios-billing-login-page-functionality-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/TechfiosLogin.feature",
+    "tags": [
+      {
+        "name": "@LoginFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 15
+        }
+      }
+    ]
+  }
+]
