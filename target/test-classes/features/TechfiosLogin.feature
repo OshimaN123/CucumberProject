@@ -1,21 +1,26 @@
-@LoginFeature @Regression
-Feature: Techfios billing login page functionality validation
 
-@Scenario1 
-Scenario: User should be able to login with valid creddentials
-When User enters userName as "demo@techfios.com"
-When User enters password as "abc123"
-When User clicks on sign in button 
-Then User should land on dashboard page 
-And User clicks on BankCash
-And User clicks on NewAccount
-Then User should land on AddNewAccountpage
-And User enters accountTitle as "Techfios Login"
-And User enters description as "abc456"
-And User enters initialBalace as "9283"
-And User enters AccountNumber as "93844"
-And User enters ContactPerson as "Techfios"
-And User enters phoneNumber as "9938"
-And User enters internetbanking Url as "https://techfios.com/billing/?ng=accounts/add/"
-And User Submit NewAccount Form
-Then User should land on manage account page
+Feature: Techfios Other billing login page functionality validation
+
+ Background: 
+    Given User is on the techfios login page
+@BankCashScenario1
+Scenario Outline: User should be able to login with valid credentials 
+	When User enters the "<username>" in the "username" field
+	When User enters the "<password>" in the "password" field
+	And User clicks on "login"
+	Then User should land on Dashboard page 
+	And User clicks on "bankCash"
+ 	And User clicks on "newAccount"
+	And User enters "<accountTitle>" in the "accountTitle" field in accounts page 
+	And User enters "<description>" in the "description" field in accounts page 
+	And User enters "<initialBalance>" in the "initialBalance" field in accounts page  
+	And User enters "<accountNumber>" in the "accountNumber" field in accounts page 
+	And User enters "<contactPerson>" in the "contactPerson" field in accounts page 
+	And User enters "<Phone>" in the "Phone" field in accounts page   
+	And User enters "<internetBankingURL>" in the "internetBankingURL" field in accounts page  
+	And User clicks on "submit"
+	Then User should be able to validate account created successfully
+	
+	Examples: 
+	|username         |password|accountTitle|description|initial Balance|account Number|contact person|Phone  |internetBankingURL    |
+	|demo@techfios.com|abc123  |abcxyz      |jhk        |37083758686    |983508606     |dhdhfh        |9854706|https://www.google.com|

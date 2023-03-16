@@ -8,8 +8,8 @@ import org.openqa.selenium.support.How;
 public class NewAccountPage extends TestBase {
 	//@FindBy(how = How.XPATH, using = "//*[@id=\"side-menu\"]/li[10]/a/span[1]")
 	
-	//@FindBy(how = How.XPATH, using = "//*[@id=\"side-menu\"]/li[10]/a/span[1]")
-	@FindBy(how = How.XPATH, partialLinkText = "Bank & Cash")
+	@FindBy(how = How.XPATH, using = "//*[@id=\"side-menu\"]/li[10]/a/span[2]")
+	//@FindBy(how = How.XPATH, partialLinkText = "Bank & Cash")
 	WebElement Bank_Cash_Element;
 	
 	

@@ -11,11 +11,10 @@ import io.cucumber.junit.CucumberOptions;
 		//features="src\\test\\resources\\features\\OtherLogin.feature",
 		features="classpath:features/TechfiosLogin.feature",
 		glue="steps",
-		tags="@LoginFeature",
+		tags="@BankCashScenario1",
 		monochrome= true,
 		dryRun=false,
 				strict = true,
-	
 		plugin= {
 				"pretty",
 				"html:target/reports/cucumber.html",
